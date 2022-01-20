@@ -1,0 +1,61 @@
+.App{
+  max-width:676px;
+  padding:0 15px;
+  text-align: center;
+  margin: 25px auto;
+}
+
+h1{font-size:35px;line-height:50px;margin:0 0 30px}
+
+.card{
+  border-radius:5px;
+  padding:30px;
+  box-shadow:0px 3px 5px 1px #ccc;
+  margin:0 0 30px
+}
+
+ul{
+  list-style: none;
+}
+
+button{
+  padding:5px 15px;
+  border-radius:5px;
+  font-size:16px;
+  background:#c8bfbf;
+  color: #000;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  margin:15px 5px
+}
+
+button.danger{
+  background: tomato;
+  color: #fff
+}
+
+button.primary{
+  background: royalblue;
+  color: #fff;
+}
+
+button.success{
+  background: turquoise;
+  color: #fff;
+  height: 40px
+}
+
+form{
+  display:flex;
+  gap:0 15px;
+  align-items:center;
+  justify-content:center;
+}
+
+.form-input{
+  height:40px;
+  border: 1px solid #c8bfbf;
+  border-radius: 5px;
+  padding: 0 15px;
+}
